@@ -1,12 +1,14 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import logo from '../../space-logo.png';
 
 const NavBar = () => {
   const activeClassName = 'nav-link-active';
   return (
     <header className="header">
       <nav className="navbar">
-        <div>
+        <div className="logo">
+          <img src={logo} alt="logo" />
           <h2>Space Travelers Hub </h2>
         </div>
         <ul className="nav-menu list">
