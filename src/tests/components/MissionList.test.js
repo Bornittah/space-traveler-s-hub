@@ -1,7 +1,7 @@
 import renderer from 'react-test-renderer';
 import { Provider } from 'react-redux';
 import store from '../../redux/configureStore';
-import MissionList from '../../components/MissionList';
+import MissionList from '../../components/Missions';
 
 describe('Testing MissionList component', () => {
   it('Testing with snapshot', () => {
