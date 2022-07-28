@@ -8,7 +8,7 @@ const RocketList = () => {
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(getRockets());
-  });
+  }, []);
   return (
     <section className="section">
       <ul className="list">
